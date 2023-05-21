@@ -1,12 +1,13 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-color: #253031;
+  --secondary-color: #c6e0ff;
+  --box-shadow: 0 5px 10px rgba(#315659, #2978a0, #bcab79, 0.3);
 }
 
 body {
   margin: 60px auto;
   max-width: 800px;
+  background-color: #e4ddc9;
 }
 
 h1,
@@ -17,16 +18,16 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 100px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 24px;
-  opacity: 0.7;
+  font-size: 25px;
+  opacity: 0.5;
 }
 
 p {
