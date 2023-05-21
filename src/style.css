@@ -1,0 +1,109 @@
+.title {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  color: #48484a;
+  font-size: 45px;
+}
+
+.wrapper {
+  border: 5px solid #f2f2f1;
+  border-style: inset;
+  border-radius: 100px;
+  margin: 100px;
+  background: rgba(245, 226, 226, 0.5);
+}
+
+body {
+  background: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/077/754/original/aero.jpeg?1681829998);
+  background-size: cover;
+}
+
+h2 {
+  color: #48484a;
+}
+
+h3 {
+  font-size: 21px;
+  color: #4b4b55;
+}
+
+.city {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.weather {
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temp-flex {
+  display: flex;
+  gap: 10px;
+}
+
+#temperature {
+  color: #463c3c;
+}
+
+#desciption {
+  color: #ffffff;
+}
+#temp_max {
+  color: #292424;
+}
+
+#temp_min {
+  color: #5a5050;
+}
+
+.weather p {
+  font-size: inherit;
+}
+.search {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  /* padding-left: 50px; */
+}
+
+p {
+  color: #474545;
+  font-size: 16px;
+  margin: 0;
+}
+
+.week {
+  display: block;
+  text-align: center;
+  position: relative;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-title {
+  color: #413d3d;
+}
+
+.week {
+  display: flex;
+  align-items: center;
+}
+
+.weather {
+  flex-wrap: wrap;
+  font-size: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+  margin-left: 0;
+}
