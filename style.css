@@ -8,7 +8,7 @@ body {
   margin: 60px auto;
   max-width: 800px;
   background-color: #479aff;
-  font-family: "Sofia", sans-serif;
+  font-family: "Sofia", sans-serif !important;
 }
 
 h1,
@@ -36,6 +36,10 @@ h3 {
 h3 {
   font-size: 25px;
   opacity: 0.5;
+}
+
+.container {
+  padding-top: 20px;
 }
 
 img {
@@ -129,4 +133,8 @@ a {
 a:hover {
   text-decoration: underline;
   color: #85bcff;
+}
+
+.project:hover {
+  text-decoration: underline;
 }
