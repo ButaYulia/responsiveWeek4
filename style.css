@@ -7,13 +7,14 @@
 body {
   margin: 60px auto;
   max-width: 800px;
-  background-color: #e4ddc9;
+  background-color: #479aff;
   font-family: "Sofia", sans-serif;
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
   margin: 0;
 }
@@ -31,6 +32,14 @@ h3 {
   opacity: 0.5;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 360px;
+}
+
 hr {
   border-top: 10px dotted #081820;
 }
@@ -42,6 +51,13 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+a {
+  color: #143d52;
+  text-align: center;
+  margin: auto;
+  text-shadow: #081820;
 }
 
 .navigation-links {
