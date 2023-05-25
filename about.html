@@ -14,6 +14,51 @@
 </head>
 
 <body>
+  <style>
+    @media (max-width: 900px) {
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        color: #1a2323;
+      }
+
+      h2 {
+        font-size: 40px;
+        text-align: center;
+        color: #2b3b3b;
+      }
+
+      img {
+        width: max-content;
+      }
+
+      .footer {
+        display: none;
+      }
+    }
+
+    @media (min-width: 700px) {
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        color: #1a2323;
+      }
+
+      h2 {
+        font-size: 40px;
+        text-align: center;
+        color: #2b3b3b;
+      }
+
+      img {
+        width: min-content;
+      }
+
+      .footer {
+        display: none;
+      }
+    }
+  </style>
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Yuliia Buta</a>
@@ -51,14 +96,21 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-4">
+        <hr />
         <img src="images/yoga.png" alt="Yoga" class="img-fluid rounded p-2 shadow" />
+        <hr />
         <img src="images/weather.png" alt="Weather" class="img-fluid rounded p-2 shadow" />
+        <hr />
       </div>
       <div class="col-sm-4">
+        <hr />
         <img src="images/lana.png" alt="Lana" class="img-fluid rounded p-2 shadow" />
+        <hr />
       </div>
       <div class="col-sm-4">
+        <hr />
         <img src="images/yogurt.png" alt="Yogurt" class="img-fluid rounded p-2 shadow" />
+        <hr />
       </div>
     </div>
   </div>
